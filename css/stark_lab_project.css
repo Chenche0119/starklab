@@ -37,20 +37,6 @@
   position: relative;
 }
 
-.stark_lab_project .navbar-link-text-1 {
-  white-space: nowrap;
-  width: fit-content;
-}
-
-.stark_lab_project .navbar-link-text-18 {
-  cursor: pointer;
-  white-space: nowrap;
-  width: fit-content;
-}
-
-.stark_lab_project .navbar-link-text-19 {
-  width: 44px;
-}
 
 .stark_lab_project .line-30 {
   height: 2px;
@@ -304,8 +290,11 @@
 }
 
 .stark_lab_project .navbar-link-text {
+  cursor: pointer;
   letter-spacing: 0;
   line-height: 28px;
   margin-top: -1.00px;
   position: relative;
+  white-space: nowrap;
+  width: fit-content;
 }

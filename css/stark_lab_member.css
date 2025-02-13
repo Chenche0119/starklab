@@ -36,21 +36,6 @@
   position: relative;
 }
 
-.stark_lab_member .navbar-link-text-4 {
-  cursor: pointer;
-  white-space: nowrap;
-  width: fit-content;
-}
-
-.stark_lab_member .navbar-link-text-43 {
-  white-space: nowrap;
-  width: fit-content;
-}
-
-.stark_lab_member .navbar-link-text-45 {
-  width: 44px;
-}
-
 .stark_lab_member .line-31 {
   height: 2px;
   left: 1140px;
@@ -442,10 +427,13 @@
 }
 
 .stark_lab_member .navbar-link-text {
+  cursor: pointer;
   letter-spacing: 0;
   line-height: 28px;
   margin-top: -1.00px;
   position: relative;
+  white-space: nowrap;
+  width: fit-content;
 }
 
 .stark_lab_member .person-2 {

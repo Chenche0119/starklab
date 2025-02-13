@@ -37,7 +37,7 @@
   position: relative;
 }
 
-.stark_lab_project_linebot .navbar-link-text-2 {
+/* .stark_lab_project_linebot .navbar-link-text-2 {
   white-space: nowrap;
   width: fit-content;
 }
@@ -50,11 +50,11 @@
 
 .stark_lab_project_linebot .navbar-link-text-28 {
   width: 44px;
-}
+} */
 
 .stark_lab_project_linebot .line-30 {
   height: 2px;
-  left: 933px;
+  left: 1018px;
   position: absolute;
   top: 56px;
   width: 85px;
@@ -532,8 +532,11 @@
 }
 
 .stark_lab_project_linebot .navbar-link-text {
+  cursor: pointer;
   letter-spacing: 0;
   line-height: 28px;
   margin-top: -1.00px;
   position: relative;
+  white-space: nowrap;
+  width: fit-content;
 }
