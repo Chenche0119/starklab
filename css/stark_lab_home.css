@@ -59,6 +59,13 @@
   width: fit-content;
 }
 
+.stark_lab_home .line-31-1 {
+  height: 2px;
+  left: 920px;
+  position: absolute;
+  top: 56px;
+  width: 85px;
+}
 /* Header Content */
 .stark_lab_home .header {
   align-items: flex-start;
