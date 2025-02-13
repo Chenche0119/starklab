@@ -1,5 +1,6 @@
-/* screen - stark-lab-home */
-.stark-lab-home {
+/* screen - home page */
+
+.stark_lab_home {
   align-items: center;
   background-color: var(--white);
   display: flex;
@@ -9,14 +10,14 @@
 }
 
 /* Header Section */
-.stark-lab-home .overlap-group5 {
+.stark_lab_home .overlap-group5 {
   height: 714px;
   margin-top: 60px;
   position: relative;
   width: 1440px;
 }
 
-.stark-lab-home .landing-page {
+.stark_lab_home .landing-page {
   align-items: flex-start;
   display: flex;
   flex-direction: column;
@@ -29,7 +30,7 @@
 }
 
 /* Navigation Bar */
-.stark-lab-home .navigation-bar {
+.stark_lab_home .navigation-bar {
   align-items: center;
   display: flex;
   flex: 0 0 auto;
@@ -39,7 +40,7 @@
   width: 1440px;
 }
 
-.stark-lab-home .navbar {
+.stark_lab_home .navbar {
   align-items: center;
   display: inline-flex;
   flex: 0 0 auto;
@@ -48,7 +49,7 @@
   position: relative;
 }
 
-.stark-lab-home .navbar-link-text {
+.stark_lab_home .navbar-link-text {
   cursor: pointer;
   letter-spacing: 0;
   line-height: 28px;
@@ -58,24 +59,25 @@
   width: fit-content;
 }
 
-.stark-lab-home .navbar-link-text-10 {
+.stark_lab_home .navbar-link-text-10 {
   white-space: nowrap;
   width: fit-content;
 }
 
-.stark-lab-home .navbar-link-text-12 {
+.stark_lab_home .navbar-link-text-12 {
   width: 44px;
 }
 
-.stark-lab-home .navbar-link-text-1 {
+.stark_lab_home .navbar-link-text-1 {
   letter-spacing: 0;
   line-height: 28px;
   margin-top: -1.00px;
   position: relative;
+  
 }
 
 /* Header Content */
-.stark-lab-home .header {
+.stark_lab_home .header {
   align-items: flex-start;
   background-color: transparent;
   display: flex;
@@ -86,14 +88,14 @@
   width: 1440px;
 }
 
-.stark-lab-home .frame-13 {
+.stark_lab_home .frame-13 {
   flex-direction: column;
   gap: 35px;
   height: 527px;
   width: 552px;
 }
 
-.stark-lab-home .pioneering-solutions {
+.stark_lab_home .pioneering-solutions {
   align-self: stretch;
   color: var(--navy-blue);
   font-family: var(--font-family-noto_sans);
@@ -105,7 +107,7 @@
   position: relative;
 }
 
-.stark-lab-home .text_label {
+.stark_lab_home .text_label {
   color: var(--black);
   font-family: var(--font-family-noto_sans_tc);
   font-size: var(--font-size-l);
@@ -118,7 +120,7 @@
   width: 509px;
 }
 
-.stark-lab-home .x1-1 {
+.stark_lab_home .x1-1 {
   height: 422px;
   left: 673px;
   object-fit: cover;
@@ -128,7 +130,7 @@
 }
 
 /* Process Block - Card Section */
-.stark-lab-home .process-block {
+.stark_lab_home .process-block {
   align-items: flex-start;
   display: inline-flex;
   flex-direction: column;
@@ -139,8 +141,8 @@
 }
 
 /* Card Base Styles */
-.stark-lab-home .card,
-.stark-lab-home .card-1 {
+.stark_lab_home .card,
+.stark_lab_home .card-1 {
   align-items: flex-start;
   background-color: #F3F3F3;
   border: 1px solid var(--mirage);
@@ -158,7 +160,7 @@
 }
 
 /* Card Content Layout */
-.stark-lab-home .content {
+.stark_lab_home .content {
   align-items: center;
   display: flex;
   flex: 0 0 auto;
@@ -169,7 +171,7 @@
   width: 1117px;
 }
 
-.stark-lab-home .label {
+.stark_lab_home .label {
   align-items: center;
   display: inline-flex;
   flex: 0 0 auto;
@@ -178,8 +180,8 @@
 }
 
 /* Card Typography */
-.stark-lab-home .number,
-.stark-lab-home .number-4 {
+.stark_lab_home .number,
+.stark_lab_home .number-4 {
   color: #1088E1;
   font-family: var(--font-family-noto_sans);
   font-size: 60px;
@@ -191,10 +193,10 @@
   width: fit-content;
 }
 
-.stark-lab-home .fintech,
-.stark-lab-home .science-and-technology-education,
-.stark-lab-home .medical-science-and-technology,
-.stark-lab-home .intelligent-transformation {
+.stark_lab_home .fintech,
+.stark_lab_home .science-and-technology-education,
+.stark_lab_home .medical-science-and-technology,
+.stark_lab_home .intelligent-transformation {
   color: #1088E1;
   font-family: var(--font-family-noto_sans_tc);
   font-size: var(--font-size-xxl);
@@ -206,10 +208,10 @@
 }
 
 /* Card Expandable Content */
-.stark-lab-home .fin-tech,
-.stark-lab-home .tech-edu,
-.stark-lab-home .med-tech,
-.stark-lab-home .intel-trans {
+.stark_lab_home .fin-tech,
+.stark_lab_home .tech-edu,
+.stark_lab_home .med-tech,
+.stark_lab_home .intel-trans {
   color: var(--white);
   font-family: var(--font-family-noto_sans_tc);
   font-size: var(--font-size-m);
@@ -223,7 +225,7 @@
 }
 
 /* Card Elements */
-.stark-lab-home .plus-icon {
+.stark_lab_home .plus-icon {
   background-image: url("../img/plus_icon.svg");
   background-repeat: no-repeat;
   background-size: contain;
@@ -233,15 +235,15 @@
   transition: transform 0.3s ease;
 }
 
-.stark-lab-home .plus-icon.expanded {
+.stark_lab_home .plus-icon.expanded {
   background-image: url("../img/minus_icon.svg");
 }
 
-.stark-lab-home .card.expanded .plus-icon {
+.stark_lab_home .card.expanded .plus-icon {
   background-image: url("../img/minus_icon.svg");
 }
 
-.stark-lab-home .line-25 {
+.stark_lab_home .line-25 {
   height: 2px;
   position: relative;
   width: 1114px;
@@ -250,34 +252,34 @@
 }
 
 /* Card Expanded State */
-.stark-lab-home .card.expanded {
+.stark_lab_home .card.expanded {
   background-color: var(--navy-blue);
 }
 
-.stark-lab-home .card.expanded .fin-tech,
-.stark-lab-home .card.expanded .tech-edu,
-.stark-lab-home .card.expanded .med-tech,
-.stark-lab-home .card.expanded .intel-trans {
+.stark_lab_home .card.expanded .fin-tech,
+.stark_lab_home .card.expanded .tech-edu,
+.stark_lab_home .card.expanded .med-tech,
+.stark_lab_home .card.expanded .intel-trans {
   height: auto;
   opacity: 1;
   margin-top: 20px;
 }
 
-.stark-lab-home .card.expanded .line-25 {
+.stark_lab_home .card.expanded .line-25 {
   opacity: 0.8;
 }
 
-.stark-lab-home .card.expanded .fintech,
-.stark-lab-home .card.expanded .science-and-technology-education,
-.stark-lab-home .card.expanded .medical-science-and-technology,
-.stark-lab-home .card.expanded .intelligent-transformation,
-.stark-lab-home .card.expanded .number,
-.stark-lab-home .card.expanded .number-4 {
+.stark_lab_home .card.expanded .fintech,
+.stark_lab_home .card.expanded .science-and-technology-education,
+.stark_lab_home .card.expanded .medical-science-and-technology,
+.stark_lab_home .card.expanded .intelligent-transformation,
+.stark_lab_home .card.expanded .number,
+.stark_lab_home .card.expanded .number-4 {
   color: var(--white);
 }
 
 /* Card First Item Special Style */
-.stark-lab-home .card-1 {
+.stark_lab_home .card-1 {
   background-color: #1088E1;
   align-items: flex-start;
   border: 1px solid var(--mirage);
@@ -295,25 +297,25 @@
 
 }
 
-.stark-lab-home .card-1 .fintech,
-.stark-lab-home .card-1 .number,
-.stark-lab-home .card-1 .number-4 {
+.stark_lab_home .card-1 .fintech,
+.stark_lab_home .card-1 .number,
+.stark_lab_home .card-1 .number-4 {
   color: var(--white);
 }
 
-.stark-lab-home .card-1 .fin-tech {
+.stark_lab_home .card-1 .fin-tech {
   height: 60px;
   opacity: 1;
 }
 
 /* Card Hover Effect */
-.stark-lab-home .card:hover {
+.stark_lab_home .card:hover {
   transform: translateY(-2px);
   box-shadow: 0px 7px 0px #191a23;
 }
 
 /* Project Section */
-.stark-lab-home .group-1 {
+.stark_lab_home .group-1 {
   align-items: flex-start;
   align-self: flex-start;
   display: flex;
@@ -323,7 +325,7 @@
   min-width: 575px;
 }
 
-.stark-lab-home .project {
+.stark_lab_home .project {
   color: var(--navy-blue);
   font-family: var(--font-family-noto_sans);
   font-size: var(--font-size-xxxxxl);
@@ -335,7 +337,7 @@
 }
 
 /* Project Groups */
-.stark-lab-home .group-52 {
+.stark_lab_home .group-52 {
   align-items: flex-start;
   display: flex;
   gap: 19px;
@@ -344,7 +346,7 @@
   min-width: 1279px;
 }
 
-.stark-lab-home .overlap-group3 {
+.stark_lab_home .overlap-group3 {
   align-items: flex-start;
   background-color: var(--navy-blue);
   border: 1px solid;
@@ -358,7 +360,7 @@
   padding: 42px 68px;
 }
 
-.stark-lab-home .flex-col {
+.stark_lab_home .flex-col {
   align-items: flex-start;
   align-self: flex-end;
   display: flex;
@@ -369,20 +371,20 @@
   width: 180px;
 }
 
-.stark-lab-home .line-bot {
+.stark_lab_home .line-bot {
   letter-spacing: 0;
   line-height: normal;
   min-height: 75px;
 }
 
-.stark-lab-home .span1 {
+.stark_lab_home .span1 {
   color: var(--white);
   font-family: var(--font-family-noto_sans);
   font-size: var(--font-size-xxl);
   font-weight: 500;
 }
 
-.stark-lab-home .overlap-group {
+.stark_lab_home .overlap-group {
   align-items: flex-start;
   background-color: var(--white);
   border-radius: 21px;
@@ -393,14 +395,14 @@
   padding: 11.0px 10.9px;
 }
 
-.stark-lab-home .text-1 {
+.stark_lab_home .text-1 {
   align-self: center;
   line-height: 28px;
   margin-bottom: 3.0px;
   min-width: 100px;
 }
 
-.stark-lab-home .overlap-group2 {
+.stark_lab_home .overlap-group2 {
   align-items: flex-start;
   background-color: var(--grey);
   border: 1px solid;
@@ -414,7 +416,7 @@
   padding: 34px 70px;
 }
 
-.stark-lab-home .flex-col-1 {
+.stark_lab_home .flex-col-1 {
   align-items: flex-start;
   align-self: flex-end;
   display: flex;
@@ -425,7 +427,7 @@
   width: 172px;
 }
 
-.stark-lab-home .text-15 {
+.stark_lab_home .text-15 {
   color: var(--navy-blue);
   font-family: var(--font-family-noto_sans_tc);
   font-size: var(--font-size-xxl);
@@ -434,7 +436,7 @@
   min-height: 36px;
 }
 
-.stark-lab-home .group-34 {
+.stark_lab_home .group-34 {
   align-items: flex-start;
   display: flex;
   gap: 17px;
@@ -443,7 +445,7 @@
   padding: 6px 3px;
 }
 
-.stark-lab-home .overlap-group1 {
+.stark_lab_home .overlap-group1 {
   align-items: flex-start;
   background-color: var(--navy-blue);
   border-radius: 21px;
@@ -454,14 +456,14 @@
   padding: 11.0px 10.9px;
 }
 
-.stark-lab-home .overlap-group4 {
+.stark_lab_home .overlap-group4 {
   height: 277px;
   margin-top: 92px;
   position: relative;
   width: 1378px;
 }
 
-.stark-lab-home .navigation-and-contacts {
+.stark_lab_home .navigation-and-contacts {
   align-items: flex-start;
   display: flex;
   flex: 0 0 auto;
@@ -472,13 +474,13 @@
   width: 532px;
 }
 
-.stark-lab-home .frame-26 {
+.stark_lab_home .frame-26 {
   flex: 0 0 auto;
   gap: 120px;
   width: 504px;
 }
 
-.stark-lab-home .label-1 {
+.stark_lab_home .label-1 {
   align-items: flex-start;
   background-color: var(--white);
   border-radius: 7px;
@@ -490,7 +492,7 @@
   position: relative;
 }
 
-.stark-lab-home .info {
+.stark_lab_home .info {
   align-items: flex-start;
   display: flex;
   flex: 0 0 auto;
@@ -500,14 +502,14 @@
   width: 484px;
 }
 
-.stark-lab-home .address-100 {
+.stark_lab_home .address-100 {
   align-self: stretch;
   letter-spacing: 0;
   line-height: normal;
   position: relative;
 }
 
-.stark-lab-home .group-30 {
+.stark_lab_home .group-30 {
   height: 30px;
   left: 1152px;
   position: absolute;
@@ -515,20 +517,20 @@
   width: 114px;
 }
 
-.stark-lab-home .frame {
+.stark_lab_home .frame {
   align-items: flex-start;
   display: flex;
   position: relative;
 }
 
-.stark-lab-home .navbar-link-text-1 {
+.stark_lab_home .navbar-link-text-1 {
   letter-spacing: 0;
   line-height: 28px;
   margin-top: -1.00px;
   position: relative;
 }
 
-.stark-lab-home .number-4 {
+.stark_lab_home .number-4 {
   letter-spacing: 0;
   line-height: normal;
   margin-top: -1.00px;
@@ -536,7 +538,7 @@
   width: fit-content;
 }
 
-.stark-lab-home .text {
+.stark_lab_home .text {
   letter-spacing: 0;
   white-space: nowrap;
 }
