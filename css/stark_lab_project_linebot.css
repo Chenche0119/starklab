@@ -139,7 +139,7 @@
   top: 0;
 }
 
-.stark_lab_project_linebot .xxx-xxx-xxx-xxx {
+.stark_lab_project_linebot .project-description {
   align-self: center;
   color: var(--white);
   font-family: var(--font-family-space_grotesk);
@@ -147,7 +147,7 @@
   font-weight: 400;
   letter-spacing: 0;
   line-height: normal;
-  margin-top: 150.6px;
+  margin-top: 250px;
   min-height: 29px;
   width: 484px;
 }
